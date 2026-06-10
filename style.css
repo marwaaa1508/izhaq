@@ -1,102 +1,121 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Georgia", serif;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Georgia, serif;
 }
 
-body {
-  scroll-behavior: smooth;
-  background: #fdf5e5;
+body{
+  scroll-behavior:smooth;
 }
 
-/* 🌸 HERO */
-.hero {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at top, #fff, #fdf5e5);
+/* 🟥 HERO */
+.hero{
+  height:100vh;
+  background:#8b1e1e;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff3e6;
+  text-align:center;
+  padding:20px;
 }
 
-.glass-card {
-  text-align: center;
-  padding: 40px;
-  background: rgba(255,255,255,0.6);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+.card{
+  background:#fff3e6;
+  color:#8b1e1e;
+  padding:40px;
+  border-radius:20px;
+  width:90%;
+  max-width:600px;
 }
 
-.bismillah {
-  font-size: 28px;
-  margin-bottom: 10px;
+.date{
+  font-size:14px;
+  letter-spacing:2px;
 }
 
-.names {
-  font-size: 40px;
-  margin-bottom: 10px;
+.divider{
+  margin:10px 0;
 }
 
-.subtitle {
-  font-size: 16px;
-  margin-bottom: 25px;
+h1{
+  font-size:34px;
+  letter-spacing:2px;
 }
 
-/* 💌 SAVE CARD */
-.save-card {
-  padding: 15px 25px;
-  background: #c9a86a;
-  color: white;
-  border-radius: 30px;
-  cursor: pointer;
-  display: inline-block;
-  transition: 0.3s;
+.line{
+  height:1px;
+  background:#8b1e1e;
+  margin:15px 0;
 }
 
-.save-card:hover {
-  transform: scale(1.05);
+.text{
+  font-size:14px;
+  line-height:1.6;
 }
 
-/* 💌 INVITATION */
-.invitation {
-  min-height: 100vh;
-  padding: 80px 20px;
-  text-align: center;
-  background: #fffaf3;
+button{
+  margin-top:20px;
+  padding:10px 20px;
+  border:none;
+  background:#8b1e1e;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
 }
 
-.invitation h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
+/* 🟡 INVITE */
+.invite{
+  background:#fff3e6;
+  text-align:center;
+  padding:60px 20px;
+  color:#8b1e1e;
 }
 
-.quote {
-  margin-bottom: 40px;
-  color: #555;
+.bismillah{
+  font-size:20px;
+  margin-bottom:10px;
 }
 
-.grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
+.smalltext{
+  font-size:10px;
+  margin-bottom:30px;
 }
 
-.box {
-  background: white;
-  padding: 20px;
-  width: 200px;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+h2{
+  font-size:28px;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 40px;
-  padding: 12px 20px;
-  background: #25D366;
-  color: white;
-  border-radius: 25px;
-  text-decoration: none;
+.amp{
+  font-size:40px;
+  margin:20px 0;
+}
+
+.quote{
+  margin:30px 0;
+  font-weight:bold;
+}
+
+.event-card{
+  background:#8b1e1e;
+  color:#fff3e6;
+  padding:20px;
+  border-radius:15px;
+  display:inline-block;
+}
+
+.arabic{
+  margin-top:30px;
+  font-size:22px;
+}
+
+.final{
+  margin-top:20px;
+  font-size:40px;
+}
+
+.footer{
+  font-size:12px;
+  margin-top:10px;
 }
