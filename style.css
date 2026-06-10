@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* 🌸 HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(#fdf5e5, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.overlay h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background: #c9a86a;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* 💌 INVITATION */
+.invitation {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #fffaf3;
+  text-align: center;
+}
+
+.invitation h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.details h3 {
+  margin-top: 20px;
+}
+
+.rsvp {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background: #25D366;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
